@@ -12,17 +12,29 @@
 </head>
 
 <body>
-<section id="banner">
+    <section id="banner">
+        
+        <div class="img-box">
+                <img src="johngbenle.png" class="main-img">
+            </div>
+        
+        <div class="info">
+            <h1>JOHN GBENLE</h1>
+            <p>johnolamidegbenle@gmail.com</p>
+            <h2></h2>
+            <p>My goal for the next two years in the tech field is to <br>BUILD PERSONAL.</p>
+            <a href="https://hng.tech/learn">LEARN</a>
+            <a href="https://keyword.dog/">KEYWORD</a>
+            <a href="https://scrapeanyweb.site/">SCRAP</a>
+            <p id="current-time-utc"></p>
+    </section>
+    <script>
     
-    <div class="img-box">
-            <img src="johngbenle.png" class="main-img">
-        </div>
+     setInterval(() => {
+        const currentTimeUTC = new Date().toUTCString();
+        document.getElementById("current-time-utc").innerHTML = currentTimeUTC;
+    }, 1000);
+
     
-    <div class="info">
-        <h2>My name is</h2>
-        <h1>JOHN GBENLE</h1>
-        <p>My goal for the next two years in the tech field is to <br>BUILD PERSONAL.</p>
-        <a href="https://hng.tech/learn">LEARN</a>
-        <a href="https://keyword.dog/">KEYWORD</a>
-        <a href="https://scrapeanyweb.site/">SCRAP</a>
-</section>
+    </script>
+</body>

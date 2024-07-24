@@ -23,17 +23,19 @@
             <p data-testid="slackEmail">johnolamidegbenle@gmail.com</p>
             <h2></h2>
             <p>My goal for the next two years in the tech field is to <br>BUILD PERSONAL.</p>
-            <a href="https://hng.tech/learn">LEARN</a>
-            <a href="https://keyword.dog/">KEYWORD</a>
-            <a href="https://scrapeanyweb.site/">SCRAP</a>
-            <p id="current-time-utc" data-testid="currentDay"></p>
-    </section>
+            <a href="">LEARN</a>
+            <a href="">KEYWORD</a>
+            <a href="">SCRAP</a>
+            <p id="current-time"></p>
+        </section>
     <script>
     
-     setInterval(() => {
-        const currentTimeUTC = new Date().toUTCString();
-        document.getElementById("current-time-utc").innerHTML = currentTimeUTC;
+        setInterval(() => {
+    const currentTimeNigeria = new Date().toLocaleString('en-US', {  });
+    document.getElementById("current-time").innerHTML = currentTimeNigeria;
     }, 1000);
+
+
 
     
     </script>

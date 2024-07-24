@@ -29,11 +29,12 @@
             <p id="current-time-utc" data-testid="currentDay"></p>
     </section>
     <script>
-    
-     setInterval(() => {
-        const currentTimeUTC = new Date().toUTCString();
-        document.getElementById("current-time-utc").innerHTML = currentTimeUTC;
-    }, 1000);
+        
+        setInterval(() => {
+    const currentTimeGMT1 = new Date().toLocaleString('en-US', { timeZone: 'GMT+1' });
+    document.getElementById("current-time-gmt1").innerHTML = currentTimeGMT1;
+}, 1000);
+
 
     
     </script>

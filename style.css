@@ -22,7 +22,7 @@
     margin-left: 5%;
 }
 .info h2{
-    color: orangered;
+    color: orange;
     font-weight: 600;
 }
 .info h1{
@@ -38,7 +38,7 @@
     line-height: 50px;
 }
 .info a{
-    background: orangered;
+    background: orange;
     padding: 10px 18px;
     text-decoration: none;
     color: black;
@@ -60,7 +60,7 @@
         padding-top: 5%;
     }
         .info h2{
-        color: orangered;
+        color: orange;
         font-weight: 600;
     }
         .info h1{
